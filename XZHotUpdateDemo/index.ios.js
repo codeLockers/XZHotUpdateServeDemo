@@ -13,6 +13,10 @@ import {
   Image
 } from 'react-native';
 
+const image1 = require('./img/test.png')
+const image2 = require('./js/img/pan.png')
+const image3 = require('./js/common/img/22.png')
+
 export default class XZHotUpdateDemo extends Component {
   render() {
     return (
@@ -20,12 +24,6 @@ export default class XZHotUpdateDemo extends Component {
         <Text style={styles.welcome}>
           Hot Update Version 0.3!
         </Text>
-      <Image
-      style={{width:100,height:300}}
-      source={require('./img/test.png')}/>
-      <Image
-      style={{width:100,height:100}}
-      source={require('./img/logo.png')}/>
       </View>
     );
   }
